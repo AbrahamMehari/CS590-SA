@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>edu.miu</groupId>
-    <artifactId>BookApplication</artifactId>
+    <artifactId>BookClient</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>BookApplication</name>
-    <description>BookApplication</description>
+    <name>BookClient</name>
+    <description>BookClient</description>
     <properties>
         <java.version>11</java.version>
     </properties>
