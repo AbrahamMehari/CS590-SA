@@ -1,0 +1,17 @@
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    volumes:
+      - mongodb-data:/data/db
+    networks:
+      - mongodb_network
+    ports:
+      - 8081:8080
+
+volumes:
+  mongodb-data:
+    name: mongodb-data
+networks:
+  mongodb_network:
+    name: mongodb_network
